@@ -24,6 +24,7 @@ int main()
  for (int i=0;i < 5;i ++){
     cout <<"Inserisci un numero intero \n";
     cin >> arrayProva[i]; 
+    cout << arrayProva;
  } 
  int lunghezza = sizeof(arrayProva) / sizeof(arrayProva[0]);
 
