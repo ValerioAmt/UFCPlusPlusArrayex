@@ -3,15 +3,24 @@
 
 using namespace std;
 int main(){
-int array[] = {58,64,39,77,3,7};
-int lung = sizeof(array)/sizeof(array[0]);
+int array[] = {58,64,39,77,3,7}; int lung = sizeof(array)/sizeof(array[0]);
 int lunghezza = lung;
-int arrayPari[];
+int arrayPari[] = {};
 int v = 0;
       for(int i =0;i < lung;i++){
           if (array[i]%2==0){
-                cin >> arrayPari[v];
-               }cout<< arrayPari[];
+                      
+            cin >> arrayPari[v];
+            v++;
+               }
+               else if(array[i] > lung){
+                break;
+               }
+               else {
+                cout << "non ci sono numeri pari ";
+               }
+               
+               cout<< arrayPari[v];
 
 }
 }

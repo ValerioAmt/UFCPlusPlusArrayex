@@ -27,5 +27,5 @@ int main()
 
         crescente = false;
       } 
-      cout << crescente; 
+      
 }
