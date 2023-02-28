@@ -17,7 +17,7 @@ int main()
         }
         else if (array[i] == lung - 1)
         {
-            cout << "L'array è in ordine crescente"
+            cout << "L'array è in ordine crescente";
         }
         else
         {
@@ -25,4 +25,4 @@ int main()
         }
 
         crescente = false;
-    }
+      } cout << crescente; 
