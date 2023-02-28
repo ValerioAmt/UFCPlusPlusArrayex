@@ -20,7 +20,7 @@ int trovaMaggiore(int array[], int lunghezza)
 int main()
 {
 
- int arrayProva[5] ;
+ int arrayProva[] = {0,0,0,0,0};
   int lung = sizeof(arrayProva) / sizeof(arrayProva[0]);
 
  for (int i=0;i < 5;i ++){
