@@ -20,15 +20,16 @@ int trovaMaggiore(int array[], int lunghezza)
 int main()
 {
 
- int arrayProva[] = {};
- for (int i=0;i < 5;i ++){
-    cout <<"Inserisci un numero intero \n";
-    cin >> arrayProva[i]; 
-    cout << arrayProva;
- } 
- int lunghezza = sizeof(arrayProva) / sizeof(arrayProva[0]);
+ int arrayProva[5] ;
+  int lung = sizeof(arrayProva) / sizeof(arrayProva[0]);
 
- cout << "Il maggior elemento presente in questo array è : " << trovaMaggiore(arrayProva, lunghezza)<<endl;
+ for (int i=0;i < 5;i ++){
+    cout <<"Inserisci 5 numeri intero \n";
+    cin >> arrayProva[i]; 
+    //cout << arrayProva;
+ } 
+
+ cout << "Il maggior elemento presente in questo array è : " << trovaMaggiore(arrayProva, lung) <<endl;
 
     
 }
