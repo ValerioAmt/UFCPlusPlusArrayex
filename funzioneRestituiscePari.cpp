@@ -10,7 +10,7 @@ int v = 0;
       for(int i =0;i < lung;i++){
           if (array[i]%2==0){
                       
-            cin >> arrayPari[v];
+            cin >> arrayPari[v] ;
             v++;
                }
                else if(array[i] > lung){
@@ -20,7 +20,7 @@ int v = 0;
                 cout << "non ci sono numeri pari ";
                }
                
-               cout<< arrayPari[v];
+               cout<< arrayPari[v]<<endl;
 
 }
 }
