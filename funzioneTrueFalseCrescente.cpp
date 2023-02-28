@@ -22,7 +22,10 @@ int main()
         else
         {
             crescente = false;
+            cout << "L'array non è in ordine crescente";
         }
 
         crescente = false;
-      } cout << crescente; 
+      } 
+      cout << crescente; 
+}
