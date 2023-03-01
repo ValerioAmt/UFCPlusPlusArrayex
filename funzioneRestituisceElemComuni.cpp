@@ -21,7 +21,7 @@ int contatore = 0;
     int main()
     {
         int arrayPrimo[] = {1, 2, 3, 4};
-        int arraySecondo[] = {2, 4, 6, 8};
+        int arraySecondo[] = {2, 3, 6, 8};
         int contatore = 0;
         int lunghezzaprimo = sizeof(arrayPrimo) / sizeof(arrayPrimo[0]);
         int lunghezzasecondo = sizeof(arraySecondo) / sizeof(arraySecondo[0]);
