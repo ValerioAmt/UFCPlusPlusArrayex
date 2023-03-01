@@ -14,16 +14,17 @@ int main()
         if (array[i] % 2 == 0)
         {
             quantiPari++;
+        }else {
+            break;
         }
     }
-    int arrayPari[quantiPari] ={};
+    
+    int arrayPari[quantiPari] = {};   //creo il secondo array che avrà tanti caratteri quati sono i numri pari sull'array dato
         for(int i = 0;i < quantiPari;i++){
-             if(array[i] != 0){
+             array[i] == 0){
                 cout << "Non ci sono numeri pari \n";
                 break;
-             }else{
-
-                cin >> quantiPari[i];
              }
 
         }
+}
