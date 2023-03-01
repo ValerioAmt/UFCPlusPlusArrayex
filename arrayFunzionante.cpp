@@ -3,6 +3,9 @@
 
 using namespace std;
 
+
+
+//in questo tipo di esercizi, IMPORTANTE STABILIRE DIMENSIONI DI ARRAY PRIMA DI UTLIZZARLO!!!
 int main()
 {
 
@@ -19,9 +22,10 @@ int main()
         }
     }
     
-    int arrayPari[quantiPari] = {};   //creo il secondo array che avrà tanti caratteri quati sono i numri pari sull'array dato
+    int arrayPari[quantiPari] ;   //creo il secondo array che avrà tanti caratteri quati sono i numri pari sull'array dato
         for(int i = 0;i < quantiPari;i++){
+              if(array[i] % 2 == 0)
                cin >> arrayPari[i];
              }
-
+            cout << arrayPari <<endl;
         }
