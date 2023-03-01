@@ -21,10 +21,7 @@ int main()
     
     int arrayPari[quantiPari] = {};   //creo il secondo array che avrà tanti caratteri quati sono i numri pari sull'array dato
         for(int i = 0;i < quantiPari;i++){
-             array[i] == 0){
-                cout << "Non ci sono numeri pari \n";
-                break;
+               cin >> arrayPari[i];
              }
 
         }
-}
