@@ -4,13 +4,14 @@
 using namespace std;
 
 int calcolaMax(int array[],int lunghezza){
+int max = 0;
 
   for(int i = 1; i < lunghezza; i ++){
     if (array[i] > max){
       max = array[i];
 } 
   }
-  return valMax;
+  return max;
 }
 int main(){
 

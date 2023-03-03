@@ -1,1 +1,1 @@
-cout << arrayPari<<endl;
+i++;

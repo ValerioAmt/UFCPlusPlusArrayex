@@ -26,6 +26,6 @@ int main()
         }
     }
 
-    cout << "Somma degli elementi pari è " << pari << ". "
-         << "La somma dei numeri dispari è " << dispari;
+    cout << "Somma degli elementi pari è " << pari << ". " <<endl << "La somma dei numeri dispari è " << dispari <<endl;
+         
 }

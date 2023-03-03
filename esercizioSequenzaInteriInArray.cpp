@@ -3,41 +3,36 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
 
-int array[] = {1,2,3,5,4,7};
-int quante ;
-int i = 0;
-int lung = sizeof(array[i])/sizeof(array[0]);
-int lunghezza = lung;
-int y = 0;
+    int array[] = {6, 2, 3, 5, 9, 7};
+    int quante = 0;
+    int i = 0;
+    int lunghezza = sizeof(array) / sizeof(array[0]);
 
-while (i < lunghezza){
-      for(y=0;y < lunghezza; y++){
-         if(array[y] < array[y+1]){
+    for (i = 0; i < lunghezza; i++)
+    {
+        if (array[i] < array[i + 1] && i < lunghezza - 1)
+        {
+            while (array[i] < array[i + 1])
+            {
+                i++;
+            }
             quante++;
-         }else{
-           
-         }
-
-            
-
-      }
-
-
-}
-cout << quante;
-
+        }
+    }
+    cout << quante << endl;
 }
 /*
 for (i = 0; i < lunghezza; i ++){
     if(array[i]>= array[i+1]){
-    
+
     }else{
         quante++ ;
     }
 
-    
+
 }
 cout << quante <<endl;
 }
