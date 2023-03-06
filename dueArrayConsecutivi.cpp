@@ -23,5 +23,5 @@ int main()
               cin >> arrayFinale[i]; // arrayFinale[i] += arraySecondo[i];
        }
 
-       cout << arrayFinale[0];
+       cout << arrayFinale;
 }
